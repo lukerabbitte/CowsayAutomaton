@@ -1,0 +1,34 @@
+// Start timer
+
+    /* Enter loop
+     * - Print cow according to current fitness level
+     * - Print current stock
+     * - Ask user what value of lunchfood they want to give to the cow, checking it is greater than stock.
+     * - Update fitness
+     *      fitness_update(int lunchfood)
+     *      - can access fitness
+     *      - generate digestion
+     *      - return (fitness + lunchfood) + digestion
+     *
+     * - If fitness between 1 and 9 inclusive,
+     * - Then increment duree_de_vie
+     * - Then update stock to add or subtract randomly generated crop and proceed with the loop.
+     *      This is achieved with stock_update(int lunchfood) within which we
+     *      - can access stock, even though we're in a new function
+     *      - generate crop
+     *      - return (stock-lunchfood) + crop
+     * - Else break out of the loop - we have lost the game
+     */
+
+    // End timer
+
+    /*
+     * - Output final score (time elapsed in seconds).
+     * - Output ASCII trophy based on how well the user did. Give bronze, silver, and gold medals.
+     */
+
+    /*
+     * Question: is the user allowed to input a lunchfood that, combined with digestion,
+     * will produce a fitness way over 10? In this case, do we move to overate stage? Or do we circle
+     * back and ask the user for another lunchfood value?
+    */
