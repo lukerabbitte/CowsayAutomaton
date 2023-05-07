@@ -4,6 +4,7 @@
      * - Print cow according to current fitness level
      * - Print current stock
      * - Ask user what value of lunchfood they want to give to the cow, checking it is greater than stock.
+     * - If stock is negative, value of lunchfood has to be zero
      * - Update fitness
      *      fitness_update(int lunchfood)
      *      - can access fitness
